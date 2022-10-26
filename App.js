@@ -14,8 +14,8 @@ import Details from './pages/Details';
 import Profile from './pages/Profile';
 
 /*
-Tab -> Stack -> Home -> Details
-Tab -> Stack -> Settings -> Profile
+Tab -> Stack -> Home -> FlatList
+Tab -> Stack -> Settings -> SectionList
 */
 
 const Tab = createBottomTabNavigator();

@@ -5,11 +5,7 @@ export default Home = ({ navigation }) => {
         <View style={styles.container}>
             <Text>Home</Text>
             <TouchableOpacity style={styles.button} onPress={() => { navigation.navigate("Details") }}>
-                <Text>Details</Text>
-            </TouchableOpacity>
-
-            <TouchableOpacity style={styles.button} onPress={() => { navigation.navigate("SettingsStack", {screen: "Settings"}) }}>
-                <Text>Settings</Text>
+                <Text>Clicca qui per la FlatList</Text>
             </TouchableOpacity>
         </View>
     );
